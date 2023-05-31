@@ -19,15 +19,16 @@ Este é um projeto em Java que visa criar um programa para armazenar informaçõ
 2. Clone este repositório para o seu ambiente local.
 3. Navegue até o diretório raiz do projeto.
 4. Compile o código-fonte executando o seguinte comando no terminal:
+
   `javac Main.java`
 5. Após a compilação bem-sucedida, execute o programa com o seguinte comando:
+
   `java Main`
 6. Siga as instruções no menu para interagir com o programa.
 
 ## Como Importar Dados Iniciais
 
 O programa permite a importação de dados iniciais de produtos através de arquivos JSON, TXT ou CSV. Para isso, siga as instruções abaixo:
-
 1. Crie um arquivo com a extensão .json, .txt ou .csv contendo as informações dos produtos.
 2. No menu do programa, selecione a opção de importação de dados.
 3. Digite o caminho completo para o arquivo contendo os dados.
