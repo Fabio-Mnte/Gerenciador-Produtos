@@ -14,7 +14,7 @@ Este é um projeto em Java que visa criar um programa para armazenar informaçõ
 - Permitir a importação de uma carga inicial de dados de 100 produtos no sistema através de arquivos JSON, TXT ou CSV.
 
 ## Como Executar o Programa
-
+Para executar o programa, siga as instruções abaixo:
 1. Certifique-se de ter o Java instalado em sua máquina.
 2. Clone este repositório para o seu ambiente local.
 3. Navegue até o diretório raiz do projeto.
@@ -25,10 +25,10 @@ Este é um projeto em Java que visa criar um programa para armazenar informaçõ
 ## Como Importar Dados Iniciais
 
 O programa permite a importação de dados iniciais de produtos através de arquivos JSON, TXT ou CSV. Para isso, siga as instruções abaixo:
-Crie um arquivo com a extensão .json, .txt ou .csv contendo as informações dos produtos.
-No menu do programa, selecione a opção de importação de dados.
-Digite o caminho completo para o arquivo contendo os dados.
-Aguarde enquanto o programa realiza a importação dos produtos.
+1. Crie um arquivo com a extensão .json, .txt ou .csv contendo as informações dos produtos.
+2. No menu do programa, selecione a opção de importação de dados.
+3. Digite o caminho completo para o arquivo contendo os dados.
+4. Aguarde enquanto o programa realiza a importação dos produtos.
 
 ## Contribuição
 
