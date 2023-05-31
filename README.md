@@ -33,3 +33,10 @@ O programa permite a importação de dados iniciais de produtos através de arqu
 ## Contribuição
 
 Contribuições são bem-vindas! Se você quiser melhorar este projeto, fique à vontade para enviar pull requests. Certifique-se de seguir as boas práticas de programação e adicionar testes para qualquer nova funcionalidade implementada.
+
+## Integrantes da Equipe
+- Fernando Yokoyama
+- Fábio Monteiro
+- Matheus Leão
+- Roberto Castro
+- Tiago Pantoja
