@@ -1,4 +1,4 @@
-# Programa de Armazenamento de Informações de Produtos
+# Programa de Armazenamento de Produtos
 
 Este é um projeto em Java que visa criar um programa para armazenar informações sobre produtos. O programa oferece recursos de adição, atualização, remoção e busca de produtos, permitindo que o usuário localize rapidamente um produto por nome ou preço. A implementação utiliza algoritmos de ordenação e busca, como o Heapsort e a busca binária, para otimizar a eficiência do sistema.
 
