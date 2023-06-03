@@ -41,7 +41,8 @@ public class GerenciadorProdutos {
     }
 
     public void ordenarProdutoHeapSort() {
-        Heapsort.heapsort(getProdutos());
+        Heapsort heap = new Heapsort();
+        heap.heapsort(getProdutos());
         System.out.println("Produtos ordenados com sucesso!");
     }
 
