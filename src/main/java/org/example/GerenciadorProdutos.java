@@ -7,8 +7,12 @@ import java.io.BufferedReader;
 import java.io.IOException;
 
 public class GerenciadorProdutos {
+    
     public List<Produto> produtos;
-
+    
+    public List<Produto> getProdutos() {
+        return produtos;
+    }
     public GerenciadorProdutos() {
         this.produtos = new ArrayList<>();
     }
@@ -37,7 +41,7 @@ public class GerenciadorProdutos {
     }
 
     public void ordenarProdutoHeapSort() {
-        Heapsort.heapsort(produtos);
+        Heapsort.heapsort(getProdutos());
         System.out.println("Produtos ordenados com sucesso!");
     }
 

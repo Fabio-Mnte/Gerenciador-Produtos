@@ -43,28 +43,28 @@ public class Menu {
                         sair = true;
                         break;
                     default:
-                        System.out.println("Digite apenas números de 1 a 7");
+                        System.out.println("Digite apenas números de 1 a 8");
                         break;
                 }
             } catch (InputMismatchException e) {
-                System.out.println("Digite apenas números de 1 a 7");
+                System.out.println("Digite apenas números de 1 a 8");
                 scanner.nextLine();
             }
         }
     }
 
     public static void mostrarMenu() {
-        System.out.println("\n##--Gerenciador de Produtos--##\n");
-        System.out.println("|-------------------------------|\n");
-        System.out.println("| 1 - Adicionar Produto         |\n");
-        System.out.println("| 2 - Remover Produto           |\n");
-        System.out.println("| 3 - Atualizar Produto         |\n");
-        System.out.println("| 4 - Mostrar Produto           |\n");
-        System.out.println("| 5 - Ordenação HeapSort        |\n");
-        System.out.println("| 6 - Ordenação Busca Binária   |\n");
-        System.out.println("| 7 - Ler Arquivo               |\n");
-        System.out.println("| 8 - Sair                      |\n");
-        System.out.println("|------------------------------ |\n");
+        System.out.println("\n##--Gerenciador de Produtos--##");
+        System.out.println("|-------------------------------|");
+        System.out.println("| 1 - Adicionar Produto         |");
+        System.out.println("| 2 - Remover Produto           |");
+        System.out.println("| 3 - Atualizar Produto         |");
+        System.out.println("| 4 - Mostrar Produto           |");
+        System.out.println("| 5 - Ordenação HeapSort        |");
+        System.out.println("| 6 - Ordenação Busca Binária   |");
+        System.out.println("| 7 - Ler Arquivo               |");
+        System.out.println("| 8 - Sair                      |");
+        System.out.println("|------------------------------ |");
         System.out.println("Digite uma opção: ");
     }
 
@@ -122,8 +122,8 @@ public class Menu {
         List<Produto> produtos = gerenciadorProdutos.mostrarProduto();
         System.out.println("Ordenando com HeapSort: ");
         gerenciadorProdutos.ordenarProdutoHeapSort();
-        for (Produto produto : produtos) {
-            System.out.println(produto);
+        for (Produto pheap : produtos) {
+            System.out.println(pheap);
         }
     }
 
